@@ -19,4 +19,12 @@ Key Features & Innovations
 •	Performance Metrics Calculation: Computes average waiting time and  turnaround time.
 •	Interactive UI: Provides an engaging and user-friendly interface for easy simulation.
 •	Comparison Feature: Enables users to compare different scheduling techniques based on performance metrics.
-
+Impact & Significance
+•	For Students & Educators: Enhances learning by providing a practical demonstration of scheduling algorithms.
+•	For Researchers: Allows testing and analyzing different scheduling strategies.
+•	For IT Professionals: Assists in workload management and scheduling optimizations.
+Use Cases
+1.	Computer Science Students – Helps in understanding CPU scheduling concepts through practical visualization.
+2.	Educators – Provides an interactive teaching tool for demonstrating scheduling techniques.
+3.	System Administrators – Helps in analyzing and optimizing real-world CPU scheduling scenarios.
+4.	Researchers – Assists in developing and testing new scheduling algorithms.
