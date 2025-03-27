@@ -35,8 +35,6 @@ Scheduling Algorithm Module	Implements FCFS, SJF, Round Robin, and Priority Sche
 Gantt Chart Visualization	Generates graphical representations of scheduling execution	Matplotlib, Tkinter
 Performance Metrics Calculation	Computes and displays average waiting time and turnaround time	Python (NumPy)
 Comparison & Analysis Module	Compares different scheduling methods based on performance	Python (Pandas)
-
-
 3. Functionalities
 •	Process Input & Scheduling Selection: Users can enter process details and select a scheduling algorithm.
 •	Real-Time Gantt Chart Generation: Displays process execution sequences graphically.
