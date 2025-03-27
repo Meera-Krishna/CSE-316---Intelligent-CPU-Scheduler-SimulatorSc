@@ -70,7 +70,7 @@ def round_robin(processes, quantum):
     plot_gantt_chart(schedule, "Round Robin Gantt Chart")
     return [wt[p] for p, _, _, _ in processes], [tat[p] for p, _, _, _ in processes]
 
-# Priority Scheduling (Non-Preemptive)
+# Priority Scheduling (Non-Preemptive) according to priority numbering
 def priority_scheduling(processes):
     processes.sort(key=lambda x: (x[1], x[3]))  # Sort by Arrival Time, then Priority
     time, wt, tat, schedule = 0, [], [], []
