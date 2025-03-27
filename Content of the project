@@ -44,10 +44,6 @@ Comparison & Analysis Module	Compares different scheduling methods based on perf
 •	Interactive Analysis & Comparison: Allows users to compare different scheduling algorithms based on efficiency.
 •	Dynamic Data Updates: Automatically updates Gantt charts and metrics when new processes are added.
 
-
-
-
-
 4. Technology Used
 Programming Languages:
 •	Python – Used for implementing scheduling algorithms and GUI.
