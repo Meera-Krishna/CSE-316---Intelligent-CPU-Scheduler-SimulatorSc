@@ -7,4 +7,9 @@ techniques effectively. Unlike traditional scheduling demonstrations, this simul
 intuitive interface that allows users to input processes with arrival times, burst times, and
 priorities while dynamically generating Gantt charts along with along with performance metrics
 like Average Waiting Time (AWT) and Turnaround Time (TAT).
+Objective
+The primary goal of this project is to develop an easy-to-use, intelligent CPU scheduling simulator
+that helps students, researchers, and professionals visualize how different scheduling algorithms
+work in real-time. This tool will assist in understanding scheduling efficiency by computing performance
+metrics such as average waiting time, turnaround time, and CPU utilization.
 
