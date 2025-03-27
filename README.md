@@ -91,3 +91,94 @@ print("FCFS:", fcfs(processes))
 print("SJF:", sjf(processes))
 print("Round Robin:", round_robin(processes, quantum))
 print("Priority Scheduling:", priority_scheduling(processes))
+Module 1: GUI & User Input Handling
+Purpose:
+
+Provide a user-friendly interface to input process details.
+
+Allow users to select a scheduling algorithm.
+
+Enable dynamic interaction with scheduling parameters.
+
+Key Features:
+
+Input form for process details (process ID, arrival time, burst time, priority).
+
+Dropdown selection for scheduling algorithms.
+
+Start/Reset button to run/restart simulations.
+
+Example:
+A user enters the following details:
+
+Process	Arrival Time	Burst Time	Priority
+P1	0	5	2
+P2	1	3	1
+P3	2	8	3
+After selecting SJF, the GUI updates to show the Gantt chart and calculated metrics.
+
+Module 2: Scheduling Logic & Computation Engine
+Purpose:
+
+Implement core scheduling logic.
+
+Compute execution order and time metrics.
+
+Handle both preemptive and non-preemptive scheduling.
+
+Key Features:
+
+FCFS Implementation: Sort by arrival time and execute sequentially.
+
+SJF Implementation: Choose the shortest remaining burst time first.
+
+Round Robin Implementation: Use a fixed time quantum for execution.
+
+Priority Scheduling Implementation: Execute processes based on priority levels.
+
+Calculate metrics:
+
+Waiting Time = Turnaround Time - Burst Time
+
+Turnaround Time = Completion Time - Arrival Time
+
+Example Calculation for FCFS:
+Given:
+
+Process	Arrival Time	Burst Time
+P1	0	4
+P2	1	3
+P3	2	2
+Execution Order: P1 → P2 → P3
+Waiting Time: P1: 0, P2: 3, P3: 5
+Turnaround Time: P1: 4, P2: 6, P3: 7
+
+Module 3: Data Visualization & Metrics Display
+Purpose:
+
+Visually represent CPU scheduling execution.
+
+Display computed metrics.
+
+Key Features:
+
+Gantt Chart Representation: Uses a timeline to show execution order.
+
+Performance Metrics Display: Displays calculated AWT, TAT.
+
+Comparison Graphs: Bar chart to compare efficiency of algorithms.
+
+Example:
+For the above FCFS example, the Gantt chart would look like:
+
+Copy
+Edit
+| P1 | P1 | P1 | P1 | P2 | P2 | P2 | P3 | P3 |
+0    1    2    3    4    5    6    7    8  
+Graphical outputs:
+
+Bar Chart: Average Waiting Time for each algorithm.
+
+Line Graph: Turnaround Time trends.
+
+
