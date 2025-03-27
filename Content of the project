@@ -59,7 +59,7 @@ Future Enhancements:
 •	Machine Learning-Based Scheduling Optimization for better CPU utilization predictions.
 •	Multi-Core Scheduling Support to simulate modern multi-core processor environments.
 •	Automated Report Generation summarizing the scheduling results and comparisons.
-8. References
+6. References
 
 •	Text Book : Operating System Concepts 8 th edition – Silberschatz, Galvin, and Gagne.
 •	CPU Scheduling Algorithms – Research Articles.
