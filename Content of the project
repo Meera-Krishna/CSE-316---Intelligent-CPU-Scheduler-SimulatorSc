@@ -28,3 +28,35 @@ Use Cases
 2.	Educators – Provides an interactive teaching tool for demonstrating scheduling techniques.
 3.	System Administrators – Helps in analyzing and optimizing real-world CPU scheduling scenarios.
 4.	Researchers – Assists in developing and testing new scheduling algorithms.
+2. Module-Wise Breakdown
+Module Name	Description	Technology Used
+Process Input Module	Accepts user-defined process details (arrival time, burst time, priority)	Python, Tkinter
+Scheduling Algorithm Module	Implements FCFS, SJF, Round Robin, and Priority Scheduling	Python (NumPy, Pandas)
+Gantt Chart Visualization	Generates graphical representations of scheduling execution	Matplotlib, Tkinter
+Performance Metrics Calculation	Computes and displays average waiting time and turnaround time	Python (NumPy)
+Comparison & Analysis Module	Compares different scheduling methods based on performance	Python (Pandas)
+
+
+3. Functionalities
+•	Process Input & Scheduling Selection: Users can enter process details and select a scheduling algorithm.
+•	Real-Time Gantt Chart Generation: Displays process execution sequences graphically.
+•	Performance Metrics Calculation: Computes key metrics like average waiting time and turnaround time.
+•	Interactive Analysis & Comparison: Allows users to compare different scheduling algorithms based on efficiency.
+•	Dynamic Data Updates: Automatically updates Gantt charts and metrics when new processes are added.
+
+
+
+
+
+4. Technology Used
+Programming Languages:
+•	Python – Used for implementing scheduling algorithms and GUI.
+Libraries and Tools:
+•	Matplotlib – For generating Gantt charts and performance visualizations.
+•	NumPy/Pandas – For handling process data efficiently.
+•	Random - Used to randomly assign colors in the Gantt chart plotting function.
+Other Tools:
+•	GitHub – Version control and project collaboration.
+•	Google Colab – Development environment.
+
+
