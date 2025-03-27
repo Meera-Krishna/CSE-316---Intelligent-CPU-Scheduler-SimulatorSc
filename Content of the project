@@ -12,4 +12,11 @@ The primary goal of this project is to develop an easy-to-use, intelligent CPU s
 that helps students, researchers, and professionals visualize how different scheduling algorithms
 work in real-time. This tool will assist in understanding scheduling efficiency by computing performance
 metrics such as average waiting time, turnaround time, and CPU utilization.
+Key Features & Innovations
+•	Real-Time Visualization: Generates Gantt charts for better understanding of CPU scheduling.
+•	Multiple Scheduling Algorithms: Implements First-Come-First-Serve (FCFS), Shortest Job First (SJF), Round Robin (RR), and Priority Scheduling.
+•	User-Defined Inputs: Allows users to input process details such as arrival time, burst time, and priority.
+•	Performance Metrics Calculation: Computes average waiting time and  turnaround time.
+•	Interactive UI: Provides an engaging and user-friendly interface for easy simulation.
+•	Comparison Feature: Enables users to compare different scheduling techniques based on performance metrics.
 
