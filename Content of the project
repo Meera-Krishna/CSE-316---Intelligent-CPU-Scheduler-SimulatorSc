@@ -1,1 +1,10 @@
+1.	Project Overview
+Introduction
+The Intelligent CPU Scheduler Simulator is a dynamic and interactive tool designed to simulate various 
+CPU scheduling algorithms, including FCFS, SJF, Round Robin, and Priority Scheduling. It provides
+real-time visualizations and performance metrics to help users understand and analyze scheduling 
+techniques effectively. Unlike traditional scheduling demonstrations, this simulator offers an 
+intuitive interface that allows users to input processes with arrival times, burst times, and
+priorities while dynamically generating Gantt charts along with along with performance metrics
+like Average Waiting Time (AWT) and Turnaround Time (TAT).
 
